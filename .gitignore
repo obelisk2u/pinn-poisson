@@ -1,0 +1,29 @@
+# Byte-compiled / cache files
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Python packaging
+build/
+dist/
+*.egg-info/
+
+# Training outputs
+runs/
+checkpoints/
+*.pt
+*.pth
+
+# Matplotlib cache
+**/.cache/
+
+# Temporary files
+*.tmp
+*.temp
