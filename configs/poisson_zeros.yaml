@@ -1,0 +1,13 @@
+model:
+  hidden: 64
+  depth: 4
+train:
+  steps: 6000
+  lr: 0.001
+  batch_int: 2048
+  batch_bnd: 512
+loss:
+  w_pde: 1.0
+  w_bc: 50.0
+eval:
+  grid_N: 121
