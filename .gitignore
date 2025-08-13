@@ -27,3 +27,5 @@ checkpoints/
 # Temporary files
 *.tmp
 *.temp
+
+plan.txt
